@@ -152,6 +152,10 @@ class Process implements Runnable {
 }
 
 public class SchedulerSimulation {
+
+    private static int contextSwitchCount = 0; // 2 Feature // Counts switches between process executions; the initial
+                                               // dispatch is not a switch.
+
     public static void main(String[] args) {
         // ⚠️ IMPORTANT: Put your student ID here to seed the random number generator
         // This makes your output unique to you - DO NOT forget to change this!
@@ -172,6 +176,8 @@ public class SchedulerSimulation {
 
         // Map to associate each thread with its respective process object
         Map<Thread, Process> processMap = new HashMap<>();
+
+        boolean firstProcessStarted = false; // 2 Feature : Tracks whether the CPU has dispatched the first process yet.
 
         // Print simulation header with elegant formatting
         System.out.println("\n" + Colors.BOLD + Colors.BRIGHT_CYAN +
@@ -230,6 +236,12 @@ public class SchedulerSimulation {
         while (!processQueue.isEmpty()) {
             // Get the next thread from the queue (FIFO)
             Thread currentThread = processQueue.poll(); // Dequeues the next thread
+            if (firstProcessStarted) {
+                contextSwitchCount++;
+            } else {
+                firstProcessStarted = true;
+            } // feature 2:Count a context switch whenever execution moves from one process to
+              // another.
 
             // Print the current process queue (list of process IDs in the queue)
             System.out.println(Colors.BOLD + Colors.MAGENTA + "┌─ Ready Queue " + "─".repeat(65) + Colors.RESET);
@@ -290,6 +302,10 @@ public class SchedulerSimulation {
         System.out.println(Colors.BOLD + Colors.BRIGHT_GREEN +
                 "╚════════════════════════════════════════════════════════════════════════════════╝" +
                 Colors.RESET + "\n");
+        System.out.println(
+                "Total context switches: " + contextSwitchCount // Feature 2: Display the total number of switches
+                                                                // recorded during the simulation.
+        );
     }
 
     // Method to add a process to the queue and map, while printing a "ready"
