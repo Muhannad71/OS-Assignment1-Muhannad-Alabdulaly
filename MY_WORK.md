@@ -142,33 +142,34 @@
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**:
+### Entry 2 - [Oct 10,  6pm]
+**What I did**: Implemented Process Priority.
+Details: i added a random priority from 1 to 10 to each simulated process and displayed the priority for the ready queue
 
-**Details**:
+**Details**: also tested and commited this feature which is number 1
 
-**Challenges**:
+**Challenges**: the challange was first how to write the code properly and how to start
 
-**Solution**:
+**Solution**: i started reading the first of the code and started t write 
 
-**Time spent**:
-
----
-
-### Entry 3 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
+**Time spent**: around 2-3 hours
 
 ---
 
-### Entry 4 - [Date and Time]
+### Entry 3 - [Oct 10, 8:30 pm]
+**What I did**: started to Implement the Context Switch Counter.
+
+**Details**: i added counter in the schedular and and incremented it before each scheduled thread was started.
+and lastly tested 
+**Challenges**: making sure the codes works 
+
+**Solution**: returned to what i just write to figure out
+
+**Time spent**: hour
+
+---
+
+### Entry 4 - Oct 10,]
 **What I did**:
 
 **Details**:
