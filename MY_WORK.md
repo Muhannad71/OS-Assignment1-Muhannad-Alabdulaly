@@ -29,11 +29,11 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
-| **Repository Link** | [Paste your repository link here] |
+| **Full Name** | [Muhannad Fahad alabdulaly] |
+| **Student ID** | [445050072] |
+| **University Email** | [445050072]@std.psau.edu.sa |
+| **GitHub Username** | [Muhannad71] |
+| **Repository Link** | [https://github.com/Muhannad71/OS-Assignment1-Muhannad-Alabdulaly ] |
  
 ---
 
@@ -129,46 +129,47 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
-**What I did**:
+### Entry 1 - [Oct 9, 2026]
+**What I did**: setting my id and starting
 
-**Details**:
+**Details**: i started downloading the apps and make and account in github
 
-**Challenges**:
+**Challenges**: figure out how to link accounts and download what needed 
 
-**Solution**:
+**Solution**: toke my time and figured how to download after reading 
 
-**Time spent**:
-
----
-
-### Entry 2 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
+**Time spent**: about hour
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**:
+### Entry 2 - [Oct 10,  6pm]
+**What I did**: Implemented Process Priority.
+Details: i added a random priority from 1 to 10 to each simulated process and displayed the priority for the ready queue
 
-**Details**:
+**Details**: also tested and commited this feature which is number 1
 
-**Challenges**:
+**Challenges**: the challange was first how to write the code properly and how to start
 
-**Solution**:
+**Solution**: i started reading the first of the code and started t write 
 
-**Time spent**:
+**Time spent**: around 2-3 hours
 
 ---
 
-### Entry 4 - [Date and Time]
+### Entry 3 - [Oct 10, 8:30 pm]
+**What I did**: started to Implement the Context Switch Counter.
+
+**Details**: i added counter in the schedular and and incremented it before each scheduled thread was started.
+and lastly tested 
+**Challenges**: making sure the codes works 
+
+**Solution**: returned to what i just write to figure out
+
+**Time spent**: hour
+
+---
+
+### Entry 4 - Oct 10,]
 **What I did**:
 
 **Details**:
