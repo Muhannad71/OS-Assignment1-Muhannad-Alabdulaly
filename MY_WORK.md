@@ -30,9 +30,9 @@
 | Field | Your Answer |
 |-------|-------------|
 | **Full Name** | [Muhannad Fahad alabdulaly] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
+| **Student ID** | [445050072] |
+| **University Email** | [445050072]@std.psau.edu.sa |
+| **GitHub Username** | [Muhannad71] |
 | **Repository Link** | [Paste your repository link here] |
  
 ---
