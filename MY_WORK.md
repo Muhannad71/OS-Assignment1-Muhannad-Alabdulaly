@@ -129,16 +129,16 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
-**What I did**:
+### Entry 1 - [Oct 9, 2026]
+**What I did**: setting my id and starting
 
-**Details**:
+**Details**: i started downloading the apps and make and account in github
 
-**Challenges**:
+**Challenges**: figure out how to link accounts and download what needed 
 
-**Solution**:
+**Solution**: toke my time and figured how to download after reading 
 
-**Time spent**:
+**Time spent**: about hour
 
 ---
 
